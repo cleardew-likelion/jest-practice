@@ -1,3 +1,5 @@
+const getMiddleChar = require('./solution')
+
 describe('getMiddleChar', () => {
     it('문자열 길이가 홀수일 때', () => {
         expect(getMiddleChar('abcde')).toBe('c')
